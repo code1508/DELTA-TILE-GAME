@@ -1,0 +1,46 @@
+
+.h1{
+  text-decoration:underline overline dottet rebeccapurple;
+  line-height: 5px;
+}
+
+
+.tile{
+    height: 50px;
+    width: 50px;
+    background-color: pink ;
+    margin: 5px;
+
+    
+    
+    
+  }
+  
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    justify-content: center;
+    text-align: center;
+
+  }
+ 
+  
+  .container {
+    display: grid;
+    grid-template-rows: repeat(4,50px);
+    grid-template-columns: repeat(4,50px);
+    align-items: center;
+    justify-content: center;
+    
+    
+    grid-gap: 5px;
+    margin-top: 15rem;
+    margin-bottom: auto;
+    margin-left: 10 rem;
+    margin-right: 30rem;
+
+
+  }
+    
+  
